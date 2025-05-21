@@ -258,7 +258,12 @@ body {
     margin-left: 10px;
     transition: background 0.3s, color 0.3s;
   }
-  
+
+.signup-btn:hover {
+    background-color: #ffffff;
+    border-color: #0056b3;
+  }
+
     .form-container h2 {
       margin-bottom: 20px;
       text-align: center;
