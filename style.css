@@ -244,8 +244,8 @@ body {
   }
 
   .login-btn:hover {
-    background-color: #007bff;
-    color: #0056b3;
+    background-color: #0056b3;
+    border-color: #0056b3;
   }
 
   .signup-btn {
