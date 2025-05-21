@@ -234,6 +234,7 @@ body {
 
 <style>
   .login-btn {
+    background-color: #037cff;
     color: #007bff;
     border: 2px solid #007bff;
     padding: 6px 12px;
@@ -250,7 +251,7 @@ body {
 
   .signup-btn {
     background-color: #037cff;
-    color: black;
+    color: white;
     border: 2px solid #037cff;
     padding: 6px 12px;
     text-decoration: none;
