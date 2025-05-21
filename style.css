@@ -259,10 +259,6 @@ body {
     transition: background 0.3s, color 0.3s;
   }
 
-  .signup-btn:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-  }
 
     .form-container {
       max-width: 400px;
