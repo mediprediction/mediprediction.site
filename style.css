@@ -243,10 +243,10 @@ body {
     transition: background 0.3s, color 0.3s;
   }
 
-  .login-btn:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-  }
+  .login-box button:hover {
+  background-color: #0056b3; /* Darker blue */
+  color: white;              /* Keep text white */
+}
 
   .signup-btn {
     background-color: #007bff;
