@@ -57,7 +57,8 @@
     .header {
       background-color: white;
       padding: 20px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-bottom: 1px solid #ddd;
+      text-align: center;
     }
 
     .header-content {
@@ -70,38 +71,44 @@
 
     .logo {
       color: #007bff;
-      font-size: 24px;
+      font-size: 36px;
       margin: 0;
     }
 
+    .nav {
+  margin-top: 10px;
+    }
+    
     .nav a {
       color: #007bff;
       text-decoration: none;
       margin: 0 10px;
+      font-weight: bold;
     }
 
     .separator {
       color: #ccc;
+      margin: 0 5px;
     }
   </style>
 </head>
 <body>
 
   <!-- Header -->
-  <header class="header">
-    <div class="container header-content">
-      <h1 class="logo">MediPrediction</h1>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <span class="separator">|</span>
-        <a href="features.html">Features</a>
-        <span class="separator">|</span>
-        <a href="about.html">About</a>
-        <span class="separator">|</span>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+ <header class="header">
+  <div class="container header-content">
+    <h1 class="logo">MediPrediction</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <span class="separator">|</span>
+      <a href="features.html">Features</a>
+      <span class="separator">|</span>
+      <a href="about.html">About</a>
+      <span class="separator">|</span>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
   <!-- Main Content -->
   <main>
