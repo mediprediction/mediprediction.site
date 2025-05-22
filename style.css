@@ -43,10 +43,6 @@ body {
   background-color: white;
 }
 
-.nav a:first-child {
-  margin-left: auto;
-}
-
 .nav a {
   text-decoration: none;
   color: #444;
