@@ -43,21 +43,6 @@ body {
   background-color: white;
 }
 
-.nav-links {
-  display: flex;
-  gap: 25px;
-  margin-left: auto; /* This pushes the links to the right */
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #444;
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-  transition: color 0.3s;
-}
-
 .nav a {
   text-decoration: none;
   color: #444;
