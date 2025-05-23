@@ -47,10 +47,7 @@ body {
   text-decoration: none;
   color: #444;
   font-weight: 600;
-  font-family: 'Inter', sans-serif; /* Match the MediPrediction font */
-  font-size: 1.2rem;
   transition: color 0.3s;
-  margin: 0 20px;
 }
 
 .nav a:hover {
@@ -366,6 +363,9 @@ body {
       color: white !important;
     }
 
+    p.one {
+     word-spacing: 10px;
+    }
   </style>
 
 
