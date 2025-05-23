@@ -33,24 +33,25 @@ body {
 }
 
 .logo {
-  font-size: 3rem;
-  color: #0077ff;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: white;
+  gap: 15px;
 }
 
 .nav a {
+  color: white;
   text-decoration: none;
-  color: #444;
-  font-weight: 600;
-  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.separator {
+  color: white;
 }
 
 .nav a:hover {
